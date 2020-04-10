@@ -2,7 +2,7 @@ import java.util.Arrays;
 
 public class DeleteElementInArray {
     public static void main(String[] args) {
-        int[] myArray = {1,2,3,5,1,6,7,5,7,8,9,5,4};
+        int[] myArray = {1,2,3,5,1,6,7,5,7,8,9,5,4,5,5,5,5,12,12,5,12,15,5};
         int x = 5;
         delNumber(myArray,x);
     }
