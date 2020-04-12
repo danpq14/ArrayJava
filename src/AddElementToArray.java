@@ -3,7 +3,12 @@ import java.util.Arrays;
 public class AddElementToArray {
     public static void main(String[] args) {
             int[] myArr = {1,2,3,4,5,6,0,0,0,0,0};
-            addElement(myArr, 0, 3);
+            addElement(myArr, 9, 3);
+            addElement(myArr, 9, 3);
+            addElement(myArr, 9, 3);
+            addElement(myArr, 9, 3);
+            addElement(myArr, 9, 3);
+
         }
 
      static void addElement (int[] arr, int number, int index) {
